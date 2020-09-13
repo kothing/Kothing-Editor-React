@@ -1,10 +1,10 @@
-import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import logo from './logo.svg';
-import AppLayout from './Layout';
-import Home from './pages/Home';
-import Editor from './pages/Editor';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import logo from "./logo.svg";
+import AppLayout from "./Layout";
+import Home from "./pages/Home";
+import Editor from "./pages/Editor";
+import "./App.css";
 
 const { Header, Sider, Content } = AppLayout;
 
@@ -18,7 +18,7 @@ function App() {
               <img src={logo} className="App-logo" alt="logo" />
             </header>
           </Header>
-          <Sider style={{ height: '70vh' }}>
+          <Sider style={{ height: "70vh" }}>
             <ul>
               <li>
                 <Link to="/">Home</Link>

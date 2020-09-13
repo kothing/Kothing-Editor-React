@@ -1,15 +1,18 @@
-import React, { useEffect, useCallback, useRef } from 'react';
-import KothingEditor from 'kothing-editor';
-import plugins from 'kothing-editor/lib/plugins';
-import 'kothing-editor/lib/assets/css/editor.css';
-import 'kothing-editor/lib/assets/css/editor-contents.css';
-import getLanguage from './getLanguage';
+import React, { useEffect, useCallback, useRef } from "react";
+import KothingEditor from "kothing-editor";
+import plugins from "kothing-editor/lib/plugins";
+import "kothing-editor/lib/assets/css/editor.css";
+import "kothing-editor/lib/assets/css/editor-contents.css";
+import getLanguage from "./getLanguage";
 
-import { KothingEditorReactProps } from './types';
+import { KothingEditorReactProps } from "./types";
 
-const ReactEditor: React.FC<KothingEditorReactProps> = (props: KothingEditorReactProps) => {
+const ReactEditor: React.FC<KothingEditorReactProps> = (
+  props: KothingEditorReactProps
+) => {
   const editor: any = useRef(null);
-  const kothingEditorTextareaId = props.textareaId || 'textarea-' + Math.floor(Math.random() * 999);
+  const kothingEditorTextareaId =
+    props.textareaId || "textarea-" + Math.floor(Math.random() * 999);
 
   const { customPlugins, lang, onChange, setContents } = props;
 

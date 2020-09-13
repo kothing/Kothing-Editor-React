@@ -12,30 +12,28 @@
     "@types/classnames": "^2.2.10",
     "@types/jest": "^24.0.0",
     "@types/node": "^12.0.0",
-    "@types/react": "^16.9.8",
-    "@types/react-dom": "^16.9.8",
-    "@types/react-router-dom": "^5.1.5",
-    "classnames": "^2.2.6",
-    "kothing-editor": "^0.0.8",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
-    "typescript": "~3.7.2"
-  },
-  "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "@types/react": "^16.9.8",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.1.5",
     "@typescript-eslint/eslint-plugin": "^3.4.0",
     "@typescript-eslint/parser": "^3.4.0",
+    "classnames": "^2.2.6",
     "eslint": "^6.6.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-config-react": "^1.1.7",
     "eslint-plugin-prettier": "^3.1.4",
     "husky": "^4.2.5",
+    "kothing-editor": "^0.0.9",
     "lint-staged": "^10.2.11",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "typescript": "~3.7.2"
   },
   "license": "MIT",
   "scripts": {
@@ -47,8 +45,8 @@
     "lint": "eslint src --fix --ext .ts,.tsx",
     "lint:create": "eslint --init"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "prettier": {
+    "endOfLine": "auto"
   },
   "browserslist": {
     "production": [
