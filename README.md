@@ -24,7 +24,7 @@ const Editor = () => {
     <ReactEditor
       width="100%"
       height="300px"
-      toolBarItem={[
+      toolbarItem={[
         ['undo', 'redo', 'removeFormat'],
         ['font', 'fontSize', 'formatBlock'],
         ['bold', 'underline', 'italic', 'strike', 'subscript', 'superscript', 'fontColor', 'hiliteColor'],
