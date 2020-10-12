@@ -1,6 +1,6 @@
 # Kothing-Editor-React
 
-This package is a thin wrapper around <a href='https://github.com/kothing-editor' target='_blank'>Kothing-Editor</a> to make it easier to use in a React application.
+This package is a thin wrapper around <a href='https://github.com/kothing/kothing-editor' target='_blank'>Kothing-Editor</a> to make it easier to use in a React application.
 
 ## Usage
 
